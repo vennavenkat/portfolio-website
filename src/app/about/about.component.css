@@ -1,0 +1,272 @@
+.about-container {
+    padding: 30px;
+    margin-top: 80px; /* Adjust this value based on your navbar height */
+    color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #cf66ff;
+    text-shadow: 0 0 10px #390651, 0 0 20px #cf66ff, 0 0 30px #cf66ffe3;
+    transition: text-shadow 0.3s ease;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  
+  .profile-photo {
+    width: 450px;
+    height: auto;
+    z-index: 1;
+    margin: 20px;
+  }
+  
+  .about-text {
+    max-width: 800px;
+    text-align: left;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  
+  .about-text p {
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 1.25rem;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-weight: 600;
+    color: #cf66ff;
+    text-shadow: 0 0 10px #390651, 0 0 20px #cf66ff;
+    transition: text-shadow 0.3s ease;
+  }
+  
+  .education-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  .education-item {
+    z-index: 1;
+      position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: rgba(72, 45, 123, 0.6);
+    border-radius: 20px;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .education-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(161, 69, 207, 0.989); 
+  }
+  
+  .education-item i {
+    font-size: 2.5rem;
+    margin-right: 20px;
+    color: #d1c4e9;
+  }
+  
+  .education-details h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  .education-details p {
+    text-align: center;
+    margin: 5px 0;
+    color: #e0e0e0;
+  }
+  
+  .education-details strong {
+    color: #cf66ff;
+  }
+  .education-item .fa-location-dot {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #cf66ff;
+  
+  }
+  
+  .experience-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+  }
+  
+  .experience-item {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: rgba(92, 60, 152, 0.759);
+    border-radius: 20px;
+    padding: 20px;
+    width: fit-content;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .experience-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(161, 69, 207, 0.989);
+  }
+  
+  .experience-item img {
+    width: 200px; /* Fixed width for logos */
+    justify-content: center;
+    height: auto;
+    margin-bottom: 10px; /* Space between logo and text */
+  }
+  .experience-details h3 {
+    margin-top: 10px; /* Adjusted for better spacing */
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  .experience-details p {
+    text-align: center;
+    margin: 5px 0;
+    color: #e0e0e0;
+  }
+  
+  .experience-details img {
+    width: 430px; /* Adjust certificate image size */
+    justify-content: center;
+    height: auto;
+    margin-top: 10px; /* Space between text and certificate image */
+  }
+  .github-button {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the button content */
+    padding: 10px 15px;
+    background-color: #000000;
+    width: fit-content;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    text-decoration: none;
+    margin: 0 auto; /* This will center the button */
+  }
+  .linkedin-button {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the button content */
+    padding: 10px 15px;
+    background-color: #5c54c5;
+    width: fit-content;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    text-decoration: none;
+    margin: 0 auto; /* This will center the button */
+    
+  }
+  .linkedin-button i {
+    margin-right: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .github-button i {
+    margin-right: 5px;
+    font-size: 1.5rem;
+  }
+  
+  .github-button:hover {
+    color: #fff;
+    background-color: #8c4bc6e4;
+  }
+  
+  
+  
+  /* Mobile View */
+  @media (max-width: 768px) {
+    .experience-section {
+      width: 100%;
+      flex-direction: column;
+    }
+  
+    .experience-item {
+      width: 90%; /* Use most of the screen width */
+    }
+  
+    .experience-item img {
+      width: 150px; /* Smaller logo for mobile */
+    }
+  
+    .experience-details img {
+      width: 250px; /* Smaller certificate image for mobile */
+    }
+  }
+  /* Mobile View */
+  @media (max-width: 768px) {
+    .about-container {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 2rem; 
+    }
+  
+    .about-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .profile-photo {
+      width: 300px; 
+      margin: 0 auto 20px auto;
+    }
+  
+    .about-text {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    .education-section {
+      width: 100%; 
+      flex-direction: column;
+    }
+  
+    .education-item {
+      width: 90%; 
+    }
+  
+    .education-item i {
+      font-size: 2rem; 
+    }
+  
+    .about-text p {
+      font-size: 1rem; 
+    }
+  }
